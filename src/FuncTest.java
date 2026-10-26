@@ -55,7 +55,7 @@ public class FuncTest {
 	// process
 	private static void process() {
 		tot = kor + eng + mat;
-		avg = tot / 3;
+		avg = (int) ((tot * 100 + 0.5) / 3 / 100.0); // int형으로 안전하게 변형
 	}
 	
 	// output
